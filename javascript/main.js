@@ -11,13 +11,12 @@
             if (email.length > 5 && email.includes("@") && email.includes(".") && message.length >= 10) {
                 console.log("Email is valid");
             } else {
-                errorMessage.append("<h7> Not a valid email address </h7>");
+                errorMessage.append("<h7> Not a valid email address! Please check it again.</h7>");
                 event.preventDefault();
             }
 
         });
     })
-
     const gridItems = document.querySelectorAll('.grid');
     const gridContent = document.querySelectorAll(".grid-info");
     const landingPageButton = document.querySelector('.btn-more');

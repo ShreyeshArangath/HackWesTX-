@@ -179,6 +179,11 @@ body {
     font-weight: 700;
 }
 
+.error {
+    color: red;
+    text-align: center;
+}
+
 @media (max-width:1026px) {
     .team-members {
         display: grid;
