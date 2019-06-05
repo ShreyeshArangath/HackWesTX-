@@ -1,26 +1,21 @@
-function showGrid1() {
-    var path = document.getElementById("grid-1-info");
-    if (path.style.display === "none") {
-        path.style.display = "block";
-    } else {
-        path.style.display = "none";
-    }
-}
+{
+    const gridItems = document.querySelectorAll('.grid')
+    const tabContent = document.querySelectorAll(".grid-info")
 
-function showGrid2() {
-    var path = document.getElementById("grid-2-info");
-    if (path.style.display === "none") {
-        path.style.display = "block";
-    } else {
-        path.style.display = "none";
+    //Select tab content item 
+    function selectItem(e) {
+        //Add border to current tab 
+        removeBorder()
+        this.classList.add("grid-underline");
     }
-}
 
-function showGrid3() {
-    var path = document.getElementById("grid-3-info");
-    if (path.style.display === "none") {
-        path.style.display = "block";
-    } else {
-        path.style.display = "none";
-    }
+    function removeBorder() {
+        gridItems.forEach(item => {
+            item.classList.remove('grid-underline')
+        })
+    };
+    //Listen for tab click 
+    gridItems.forEach(item => {
+        item.addEventListener("click", selectItem)
+    });
 }

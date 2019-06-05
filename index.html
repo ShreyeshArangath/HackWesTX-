@@ -15,7 +15,7 @@
 <body>
 
     <script src="javascript/main.js"></script>
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid" id="jumbo">
 
         <video autoplay muted loop poster="https://dummyimage.com/900x400/000/fff">    
                     <source src="assets/source.mp4" type="video/mp4">
@@ -36,20 +36,14 @@
 
     <section class="more-information">
         <div class="information">
-            <div id="about-us" class="grid underline">
-                <button class="btn btn-lg" onclick="showGrid1()">
-                    <i class="fas fa-calendar-alt fa-3x"></i>
-                </button>
+            <div id="about-us" class="grid grid-underline">
+                <i class="fas fa-calendar-alt fa-3x"></i>
             </div>
             <div id="sponsor" class="grid">
-                <button class="btn btn-lg">
-                    <i class="fas fa-money-bill-alt fa-3x"></i>
-                </button>
+                <i class="fas fa-money-bill-alt fa-3x"></i>
             </div>
             <div id="FAQ" class="grid">
-                <button class="btn btn-lg">
-                    <i class="fas fa-question fa-3x"></i>
-                </button>
+                <i class="fas fa-question fa-3x"></i>
             </div>
         </div>
         <br><br>
@@ -57,7 +51,7 @@
     </section>
 
     <section class="grid-1-info">
-        <div id="grid-1-info">
+        <div id="grid-1-info" class="grid-info">
             <h3 class="mt-0">We are HackWesTX!</h3>
             <p>
                 HackWesTX II is Texas Tech University's second student-run hackathon! This year, the hackathon will start Saturday, October 26th and end Sunday, October 27th. Exact schedule times are yet to be determined. The hackathon will last 24 hours total!
@@ -68,7 +62,7 @@
     </section>
 
     <section class="grid-2-info">
-        <div id="grid-2-info">
+        <div id="grid-2-info" class="grid-info">
             <h3 class=" mt-0 ">Sponsor us!</h3>
             <p>
                 Interested in becoming a sponsor? View our sponsorship packet
@@ -76,55 +70,56 @@
 
             <a class="btn btn-outline-dark btn-block " href="# " role="button ">Link</a>
 
+
+
         </div>
 
     </section>
 
 
-    <section class="grid-3-info ">
-        <div id="grid-3-info ">
-            <h2 class="mt-0 ">Frequently Asked Questions</h2>
-            <ul class="questions ">
+    <section class="grid-3-info">
+        <div id="grid-3-info" class="grid-info">
+            <h2 class="title">FAQ</h2>
+            <ul>
                 <li>
-                    <p class="is-5 ">
+                    <p class="is-5">
                         <b>How much does it cost?</b>
                     </p>
-                    <p class="is-6 ">Nothing! HackWesTX is completely free to students!</p>
+                    <p class="is-6">Nothing! HackWesTX is completely free to students!</p>
                 </li>
                 <li>
-                    <p class="is-5 ">
+                    <p class="is-5">
                         <b>What's a hackathon?</b>
                     </p>
-                    <p class="is-6 ">Hackathons are usually software or hardware development events where many hackers and innovators come together to collaborate and have fun!</p>
+                    <p class="is-6">Hackathons are usually software or hardware development events where many hackers and innovators come together to collaborate and have fun!</p>
                 </li>
                 <li>
-                    <p class="is-5 ">
+                    <p class="is-5">
                         <b>Do I need a team?</b>
                     </p>
-                    <p class="is-6 ">You are able to register for HackWesTX without a team, but collaborating with a few friends or new faces will definitely make the experience more enjoyable!</p>
+                    <p class="is-6">You are able to register for HackWesTX without a team, but collaborating with a few friends or new faces will definitely make the experience more enjoyable!</p>
                 </li>
                 <li>
-                    <p class="is-5 ">
+                    <p class="is-5">
                         <b>Will there be free stuff?</b>
                     </p>
-                    <p class="is-6 ">Of course! All participants will be well fed and provided with ample amounts of swag!</p>
+                    <p class="is-6">Of course! All participants will be well fed and provided with ample amounts of swag!</p>
                 </li>
                 <li>
-                    <p class="is-5 ">
+                    <p class="is-5">
                         <b>Can I register in advance?</b>
                     </p>
-                    <p class="is-6 ">You can! Check this website in the near future for a registration form!</p>
+                    <p class="is-6">You can! Check this website in the near future for a registration form!</p>
                 </li>
             </ul>
         </div>
     </section>
 
 
-
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+    <script src="javascript/main.js"></script>
 </body>
 
 </html>

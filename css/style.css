@@ -6,7 +6,7 @@
     position: relative;
     overflow: hidden;
     background-color: black;
-    height: 90vh;
+    height: 85vh;
 }
 
 .jumbotron video {
@@ -23,7 +23,7 @@
     z-index: 2;
     position: relative;
     text-align: center;
-    margin-top: 60vh;
+    margin-top: 50vh;
     justify-content: center;
     font-family: 'Bungee', cursive;
 }
@@ -41,13 +41,26 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 1.2rem;
-    padding: 10px;
     justify-items: center;
     line-break: auto;
 }
 
-.grid-1-info,
-.grid-2-info,
-.grid-3-info {
+.grid {
+    padding: 0.5rem;
+}
+
+.grid:hover {
+    color: olivedrab;
+    cursor: pointer;
+}
+
+
+/* .grid-1-info #grid-1-info,
+.grid-2-info #grid-2-info,
+.grid-3-info #grid-3-info {
     display: none;
+} */
+
+.grid-underline {
+    border-bottom: olivedrab 4px solid;
 }
