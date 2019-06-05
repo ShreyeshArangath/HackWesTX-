@@ -27,7 +27,7 @@ body {
     z-index: 2;
     position: relative;
     text-align: center;
-    margin-top: 50vh;
+    margin-top: 40vh;
     justify-content: center;
     font-family: 'Bungee', cursive;
 }
@@ -50,6 +50,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 1.2rem;
+    grid-row-gap: 3rem;
     justify-items: center;
     line-break: auto;
 }
@@ -111,7 +112,7 @@ body {
 }
 
 .grid-info h5 {
-    font-family: mt-3;
+    font-weight: 700;
 }
 
 #grid-3-info {
@@ -125,11 +126,56 @@ body {
     font-family: 'Bungee', cursive;
 }
 
+.grid-info .tab-info-green {
+    color: olivedrab;
+}
+
 .faq-list {
     list-style: none;
 }
 
 .grid-info .question {
+    font-weight: 700;
+}
+
+.grid-info answer {
+    font-weight: 500;
+}
+
+.grid-info li {
+    padding: 1rem;
+}
+
+.contact-us {
+    padding-top: 45px;
+    text-align: center;
+}
+
+.contact-us h4 {
+    font-family: 'Bungee', cursive;
+}
+
+.contact-us .contact-green {
+    color: olivedrab;
+}
+
+.contact-form {
+    padding: 30px;
+}
+
+.contact-form input {
+    border-radius: 25px;
+}
+
+.contact-form textarea {
+    border-radius: 25px;
+}
+
+.contact-form .btn {
+    margin: auto;
+}
+
+.contact-form h4 {
     font-weight: 700;
 }
 
