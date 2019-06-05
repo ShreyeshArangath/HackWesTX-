@@ -54,13 +54,16 @@
     cursor: pointer;
 }
 
-
-/* .grid-1-info #grid-1-info,
-.grid-2-info #grid-2-info,
-.grid-3-info #grid-3-info {
-    display: none;
-} */
-
 .grid-underline {
     border-bottom: olivedrab 4px solid;
+}
+
+#grid-1-info,
+#grid-2-info,
+#grid-3-info {
+    display: none;
+}
+
+.show {
+    display: block !important;
 }
