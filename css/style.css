@@ -67,3 +67,27 @@
 .show {
     display: block !important;
 }
+
+.grid-info {
+    align-items: center;
+    text-align: center;
+}
+
+#grid-3-info {
+    align-items: center;
+    text-align: left;
+}
+
+.grid-info h3 {
+    align-items: center;
+    text-align: center;
+    font-family: 'Bungee', cursive;
+}
+
+.faq-list {
+    list-style: none;
+}
+
+.grid-info .question {
+    font-weight: 700;
+}
