@@ -2,11 +2,15 @@
     --primary-color: white;
 }
 
+body {
+    z-index: -110;
+}
+
 .jumbotron {
     position: relative;
     overflow: hidden;
     background-color: black;
-    height: 85vh;
+    height: 100vh;
 }
 
 .jumbotron video {
@@ -33,6 +37,11 @@
     border: black;
 }
 
+.jumbotron .container .btn-primary:hover {
+    color: olivedrab;
+    cursor: pointer;
+}
+
 .jumbotron .container .texas {
     color: olivedrab;
 }
@@ -47,11 +56,15 @@
 
 .grid {
     padding: 0.5rem;
+    -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3 ease-in-out;
+    -moz-transition: 0.3s ease-in-out, -moz-transform 0.3 ease-in-out;
+    transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .grid:hover {
     color: olivedrab;
     cursor: pointer;
+    transform: scale(1.25);
 }
 
 .grid-underline {
@@ -73,6 +86,34 @@
     text-align: center;
 }
 
+.team-members {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 0.5rem;
+}
+
+.team-members .member img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 250px;
+    border: black 10px solid;
+}
+
+.grid-info .title {
+    font-family: 'Bungee', cursive;
+    font-size: 1.2rem;
+}
+
+.grid-info .name {
+    font-family: 'Bungee', cursive;
+    color: olivedrab;
+}
+
+.grid-info h5 {
+    font-family: mt-3;
+}
+
 #grid-3-info {
     align-items: center;
     text-align: left;
@@ -90,4 +131,20 @@
 
 .grid-info .question {
     font-weight: 700;
+}
+
+@media (max-width:1026px) {
+    .team-members {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 0.5rem;
+    }
+}
+
+@media (max-width:654px) {
+    .team-members {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 0.5rem;
+    }
 }

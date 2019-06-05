@@ -1,6 +1,7 @@
 {
-    const gridItems = document.querySelectorAll('.grid')
-    const gridContent = document.querySelectorAll(".grid-info")
+    const gridItems = document.querySelectorAll('.grid');
+    const gridContent = document.querySelectorAll(".grid-info");
+    const landingPageButton = document.querySelector('.btn-more');
 
     //Select tab content item 
     function selectItem(e) {
@@ -27,5 +28,14 @@
             item.classList.remove('show')
         });
     }
+
+    function showMore(e) {
+        window.scrollBy({
+            top: 100,
+            left: 100,
+            behavior: 'smooth'
+        });
+    }
+    landingPageButton.addEventListener('click', showMore);
 
 }
