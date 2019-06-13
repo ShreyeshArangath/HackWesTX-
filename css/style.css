@@ -13,6 +13,36 @@ body {
     height: 100vh;
 }
 
+#parallax-1 {
+    background: linear-gradient( rgba(255, 255, 255, 0.7), rgba(70, 66, 66, 0.7)), url(/assets/tom-gainor-752224-unsplash.jpg);
+    height: 100%;
+    color: black;
+    background-attachment: fixed;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax-2 {
+    background: linear-gradient( rgba(255, 255, 255, 0.7), rgba(70, 66, 66, 0.7)), url(/assets/tom-gainor-752224-unsplash.jpg);
+    height: 100%;
+    color: black;
+    background-attachment: fixed;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax-3 {
+    background: linear-gradient( rgba(255, 255, 255, 0.7), rgba(70, 66, 66, 0.7)), url(/assets/tom-gainor-752224-unsplash.jpg);
+    height: 100%;
+    color: black;
+    background-attachment: fixed;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .jumbotron video {
     position: absolute;
     z-index: 1;
