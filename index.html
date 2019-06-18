@@ -9,6 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Bungee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/0a7c8871d6.js"></script>
@@ -48,6 +49,9 @@
             <div id="grid-3" class="grid">
                 <i class="fas fa-question fa-3x"></i>
             </div>
+            <div id="grid-4" class="grid">
+                    <i class="fas fa-address-book fa-3x"></i>
+            </div>
         </div>
         <br><br>
 
@@ -55,34 +59,35 @@
 
 
     <section class="grid-1-info" id="parallax-1">
-        <br>
         <div id="grid-1-info" class="grid-info show">
-            <h3 class="mt-0">We are HackWes<span class="tab-info-green">TX</span></h3>
-            <h6 class="answers">
-                HackWesTX II is Texas Tech University's second student-run hackathon! This year, the hackathon will start Saturday, October 26th and end Sunday, October 27th. Exact schedule times are yet to be determined. The hackathon will last 24 hours total!
-            </h6>
-
-            <p class="title">Our Team</p>
+            <h3 class="mt-0">We are HackWes<span class="tab-info-green">TX</span>!</h3>
             <br>
+            <h6 class="answers">
+                HackWesTX II is Texas Tech University's second student-run hackathon! 
+                This year, the hackathon will start Saturday, October 26th and end Sunday, October 27th. Exact schedule times are yet to be determined. The hackathon will last 24 hours total!
+                We are developers who encourage each other to do better. It’s not just about writing code or programming hardware, it’s about making a positive impact in our community. We want to empower the next generation of learners that will change our world and hackathons are a great opportunity to do just that!
+            </h6>
+            <br>
+            <h3 class="mt-0">Our Team</h4>
             <div class="team-members">
                 <div class="member" id="logistics">
                     <img src="assets/test.jpg" alt="">
-                    <h4 class="name">Shreyesh</h4>
-                    <h5>Lead Director of HackWesTX</h5>
+                    <h4 class="name">Shreyesh <span class="lastname">Arangath</span></h4>
+                    <h5>Lead Director</h5>
                 </div>
                 <div class="member" id="finance">
                     <img src="assets/test.jpg" alt="">
-                    <h4 class="name">Ahmed Bayoumi</h4>
+                    <h4 class="name">Ahmed <span class="lastname">Bayoumi</span></h4>
                     <h5>Head of Logistics</h5>
                 </div>
                 <div class="member" id="marketing">
                     <img src="assets/test.jpg" alt="">
-                    <h4 class="name">Neil Maro</h4>
+                    <h4 class="name">Neil <span class="lastname">Maro</span></h4>
                     <h5>Head of Finance</h5>
                 </div>
                 <div class="member" id="hacker-exp">
                     <img src="assets/test.jpg" alt="">
-                    <h4 class="name">Stephen Joel</h4>
+                    <h4 class="name">Stephen <span class="lastname">Joel</span></h4>
                     <h5>Head of Hacker Marketing</h5>
                 </div>
             </div>
@@ -94,9 +99,12 @@
     <section class="grid-2-info" id="parallax-2">
         <div id="grid-2-info" class="grid-info">
             <h3 class=" mt-0 ">Sponsor <span class="tab-info-green">Us</span></h3>
+            <br>
             <h6 class="answers">
-                Interested in becoming a sponsor? View our sponsorship packet
+                Sponsoring a hackathon is a really good way to get in touch with the best and brightest students there are within a college community and do so in a casual and convenient environment.  
             </h6>
+            <br>
+            <p>Interested in becoming a sponsor? View our sponsorship packet</p>
             <br>
             <a class="btn btn-outline-dark  " href="assets/HackWesTX+Sponsorship+Packet.pdf" role="button" download>Download the Packet!</a>
 
@@ -148,27 +156,29 @@
         </div>
     </section>
 
-    <section class="contact">
-        <div class="contact-us">
-            <h4> Contact <span class="contact-green">Us!</span> </h4>
-        </div>
-        <div class="error">
+    <section class="grid-4-info">
+        <div id="grid-4-info" class="grid-info faq">
+            <h3 class="mt-0">
+                Contact <span class="tab-info-green">Us</span>
+            </h3>
+            <div class="error">
 
-        </div>
-        <form class="contact-form" action="https://formspree.io/hackwestx2019@gmail.com" method="POST" />
-        <div class="form-group">
-            <h4>Email address</h4>
-            <input type="email" class="form-control email" id="exampleFormControlInput1" name="email" placeholder="name@example.com">
-        </div>
-        <div class="form-group">
-            <h4>Message</h4>
-            <textarea class="form-control message" id="exampleFormControlTextarea1" placeholder="Write your message here! " name="message" rows="3"></textarea>
-        </div>
-        <div class="form-group ">
-            <center> <button type="submit" class="btn btn-outline-dark submit">Submit</button></center>
-        </div>
+            </div>
+            <form class="contact-form" action="https://formspree.io/hackwestx2019@gmail.com" method="POST" />
+                <div class="form-group">
+                    <h4>Email address</h4>
+                    <input type="email" class="form-control email" id="exampleFormControlInput1" name="email" placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <h4>Message</h4>
+                    <textarea class="form-control message" id="exampleFormControlTextarea1" placeholder="Write your message here! " name="message" rows="3"></textarea>
+                </div>
+                <div class="form-group ">
+                    <center> <button type="submit" class="btn btn-outline-dark submit">Submit</button></center>
+                </div>
 
-        </form>
+            </form>
+        </div>
     </section>
 
 

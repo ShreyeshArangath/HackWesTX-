@@ -4,6 +4,10 @@
 
 body {
     z-index: -110;
+    background:black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    background-size: fill;
 }
 
 .jumbotron {
@@ -88,7 +92,7 @@ body {
 }
 .information {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 1.2rem;
     grid-row-gap: 3rem;
     justify-items: center;
@@ -96,7 +100,7 @@ body {
 }
 
 .grid {
-    padding: 0.5rem;
+    padding: 0.25rem;
     -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3 ease-in-out;
     -moz-transition: 0.3s ease-in-out, -moz-transform 0.3 ease-in-out;
     transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
@@ -114,7 +118,8 @@ body {
 
 #grid-1-info,
 #grid-2-info,
-#grid-3-info {
+#grid-3-info ,
+#grid-4-info{
     display: none;
 }
 
@@ -130,7 +135,7 @@ body {
 .team-members {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: 0.5rem;
+    grid-column-gap: 0.8rem;
 }
 
 .team-members .member img {
@@ -148,6 +153,11 @@ body {
 
 .grid-info .name {
     font-family: 'Bungee', cursive;
+    color: white;
+}
+
+.grid-info .lastname{
+    font-family: 'Bungee',cursive;
     color: #6acd75;
 }
 
