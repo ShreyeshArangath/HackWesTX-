@@ -10,10 +10,16 @@ body {
     position: relative;
     overflow: hidden;
     background-color: black;
-    height: 100vh;
+    background: linear-gradient( rgba(255, 255, 255, 0.7), rgba(70, 66, 66, 0.7)), url(/assets/mahir-uysal-568303-unsplash.jpg);
+    height: 100%;
+    color: black;
+    background-attachment: fixed;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#parallax-1 {
+/* #parallax-1 {
     background: linear-gradient( rgba(255, 255, 255, 0.7), rgba(70, 66, 66, 0.7)), url(/assets/tom-gainor-752224-unsplash.jpg);
     height: 100%;
     color: black;
@@ -41,9 +47,9 @@ body {
     background-position: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
-.jumbotron video {
+/* .jumbotron video {
     position: absolute;
     z-index: 1;
     top: 0;
@@ -51,13 +57,13 @@ body {
     height: 100%;
     object-fit: cover;
     opacity: 0.5;
-}
+} */
 
 .jumbotron .container {
     z-index: 2;
     position: relative;
     text-align: center;
-    margin-top: 40vh;
+    margin-top: 30vh;
     justify-content: center;
     font-family: 'Bungee', cursive;
 }
@@ -68,14 +74,18 @@ body {
 }
 
 .jumbotron .container .btn-primary:hover {
-    color: olivedrab;
+    color: #6acd75;
     cursor: pointer;
 }
 
 .jumbotron .container .texas {
-    color: olivedrab;
+    color: #6acd75;
 }
 
+.logo {
+    position: relative;
+    height: 30vh;
+}
 .information {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -93,13 +103,13 @@ body {
 }
 
 .grid:hover {
-    color: olivedrab;
+    color: #6acd75;
     cursor: pointer;
     transform: scale(1.25);
 }
 
 .grid-underline {
-    border-bottom: olivedrab 4px solid;
+    border-bottom: #6acd75 4px solid;
 }
 
 #grid-1-info,
@@ -138,7 +148,7 @@ body {
 
 .grid-info .name {
     font-family: 'Bungee', cursive;
-    color: olivedrab;
+    color: #6acd75;
 }
 
 .grid-info h5 {
@@ -157,7 +167,7 @@ body {
 }
 
 .grid-info .tab-info-green {
-    color: olivedrab;
+    color: #6acd75;
 }
 
 .faq-list {
@@ -186,7 +196,7 @@ body {
 }
 
 .contact-us .contact-green {
-    color: olivedrab;
+    color: #6acd75;
 }
 
 .contact-form {
