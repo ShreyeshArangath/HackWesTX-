@@ -89,7 +89,9 @@ body {
 .logo {
     position: relative;
     height: 30vh;
+
 }
+
 .information {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -113,7 +115,9 @@ body {
 }
 
 .grid-underline {
-    border-bottom: #6acd75 4px solid;
+    border-bottom: #6acd75 7px solid;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
 }
 
 #grid-1-info,
@@ -121,6 +125,8 @@ body {
 #grid-3-info ,
 #grid-4-info{
     display: none;
+    margin-right: 5rem;
+    margin-left: 5rem;
 }
 
 .show {
@@ -232,6 +238,29 @@ body {
 .error {
     color: red;
     text-align: center;
+}
+
+.social-media{
+    display: grid ;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 0rem;
+    align-content: center;
+    align-items: center;
+    margin: 0.5rem 10rem;
+}
+
+.facebook,.instagram,.slack{
+    margin: 0;
+}
+
+.social {
+    padding: 0.5rem;
+}
+
+.logo-fixed{
+    position: fixed;
+    bottom:0;
+    right:0;
 }
 
 @media (max-width:1026px) {
