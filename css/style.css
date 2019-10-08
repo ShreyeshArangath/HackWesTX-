@@ -4,7 +4,7 @@
 
 body {
     z-index: -110;
-    background:black;
+    background:rgb(63, 60, 60);
     color: white;
     font-family: 'Montserrat', sans-serif;
     background-size: fill;
@@ -18,13 +18,12 @@ body {
     position: relative;
     overflow: hidden;
     background-color: black;
-    background: linear-gradient( rgb(0, 0, 0,0.2), rgb(0, 0, 0)), url(https://unsplash.com/photos/ywVLrYtNXMQ);
+    background: linear-gradient( rgba(80, 67, 67, 0.2), rgb(0, 0, 0)), url("/assets/mahir-uysal-568303-unsplash.jpg");
     background-position: center;
-    background-repeat: repeat;
-    background-size: scale-down;
-    height: 100%;
+    background-size: contain;
+    height: 100vh;
     color: black;
-    background-blend-mode: screen;
+    background-blend-mode: soft-light;
     background-attachment: fixed;
     background-position: fixed;
     background-repeat: no-repeat;
@@ -90,6 +89,7 @@ body {
     margin: 0.2rem;
     font-family: 'Montserrat', sans-serif;
 }
+
 
 .jumbotron .container .btn-primary:hover {
     color: #6acd75;
@@ -165,7 +165,7 @@ body {
     width: 250px;
     object-fit: cover;
     border-radius: 250px;
-    border: black 10px solid;
+    border:hsla(127, 100%, 81%, 0.226) 10px solid;
 }
 
 .grid-info .title {
