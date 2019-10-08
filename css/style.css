@@ -10,15 +10,18 @@ body {
     background-size: fill;
 }
 
-h1 {
-    text-shadow: 4px 4px black;
-}
+/* h1 {
+    text-shadow: 20px 2px black;
+} */
 
 .jumbotron {
     position: relative;
     overflow: hidden;
     background-color: black;
-    background: linear-gradient( rgba(0, 0, 0, 0.836), rgb(0, 0, 0)), url(/assets/mahir-uysal-568303-unsplash.jpg);
+    background: linear-gradient( rgb(0, 0, 0,0.2), rgb(0, 0, 0)), url(/assets/diego-ph-222506-unsplash.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: scale-down;
     height: 100%;
     color: black;
     background-blend-mode: screen;
