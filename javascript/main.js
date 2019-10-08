@@ -1,4 +1,8 @@
 {
+    $('.logo-fixed').on('click', function(){
+        $('#fade-in').toggleClass('show');
+    });
+
     $(document).ready(function() {
         $(".submit").click(function(event) {
             console.log("clicked")

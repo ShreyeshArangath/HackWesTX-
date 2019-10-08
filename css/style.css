@@ -108,6 +108,29 @@ body {
 
 
 
+#fade-in {
+    height: 150px;
+    width: 1px;
+    opacity: 0;
+    transition: all .75s ease;
+  }
+  
+  #fade-in.show {
+    opacity: 1;
+    height: 150px;
+    width: 500px;
+  }
+
+  .grid-2-info .btn{
+    background: black;
+    border: black;
+  }
+
+  .grid-2-info .btn:hover {
+    color: #6acd75;
+    cursor: pointer;
+  }
+
 .information {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
