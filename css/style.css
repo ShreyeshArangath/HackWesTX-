@@ -10,13 +10,18 @@ body {
     background-size: fill;
 }
 
+h1 {
+    text-shadow: 4px 4px black;
+}
+
 .jumbotron {
     position: relative;
     overflow: hidden;
     background-color: black;
-    background: linear-gradient( rgba(255, 255, 255, 0.7), rgba(70, 66, 66, 0.7)), url(/assets/mahir-uysal-568303-unsplash.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.836), rgb(0, 0, 0)), url(/assets/mahir-uysal-568303-unsplash.jpg);
     height: 100%;
     color: black;
+    background-blend-mode: screen;
     background-attachment: fixed;
     background-position: fixed;
     background-repeat: no-repeat;
@@ -77,6 +82,12 @@ body {
     border: black;
 }
 
+.lead {
+    padding: 0rem;
+    margin: 0.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .jumbotron .container .btn-primary:hover {
     color: #6acd75;
     cursor: pointer;
@@ -91,6 +102,8 @@ body {
     height: 30vh;
 
 }
+
+
 
 .information {
     display: grid;
