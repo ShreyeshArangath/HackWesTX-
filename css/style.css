@@ -290,6 +290,10 @@ body {
     right:0;
 }
 
+.hackwestx-2017{
+    background: #9eb19e;;
+}
+
 @media (max-width:1026px) {
     .team-members {
         display: grid;
