@@ -62,6 +62,10 @@ body {
     color: #6acd75;
 }
 
+.padding-jumbotron {
+    padding-top: 3rem;
+}
+
 .logo {
     position: relative;
     height: 30vh;
