@@ -213,6 +213,10 @@ body {
     color: #6acd75;
 }
 
+.question {
+    color: #ec9b59;
+}
+
 .faq-list {
     list-style: none;
 }
@@ -293,6 +297,11 @@ body {
 .hackwestx-2017{
     background: #9eb19e;;
 }
+
+hr {
+    border: 10px solid orange;
+    border-radius: 5px;
+  }
 
 @media (max-width:1026px) {
     .team-members {
