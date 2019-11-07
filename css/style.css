@@ -214,7 +214,7 @@ body {
 }
 
 .question {
-    color: #ec9b59;
+    color: #9eb19e;
 }
 
 .faq-list {
@@ -299,7 +299,7 @@ body {
 }
 
 hr {
-    border: 10px solid orange;
+    border: 10px solid #ec9b59;
     border-radius: 5px;
   }
 
@@ -326,6 +326,10 @@ hr {
     }
     .team-members .member {
         padding: 1.5rem 1.5rem;
+    }
+
+    .social-media {
+
     }
     
 }
