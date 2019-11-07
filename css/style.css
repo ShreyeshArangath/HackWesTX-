@@ -97,6 +97,11 @@ body {
  .answers {
      text-align: justify;
  } 
+
+ .interested-sponsors {
+    text-align: justify;
+ }
+
 .information {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -171,6 +176,7 @@ body {
 .grid-info h2{
     font-family: 'Bungee', cursive;
     font-size: 4rem;
+    text-align: center;
 }
 
 
