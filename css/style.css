@@ -20,8 +20,9 @@ body {
     background-color: black;
     background: linear-gradient( rgba(80, 67, 67, 0.2), rgb(0, 0, 0)), url("../assets//mahir-uysal-568303-unsplash.jpg");
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     height: 100vh;
+    width: 100vw;
     color: black;
     background-blend-mode: soft-light;
     background-attachment: fixed;
@@ -300,7 +301,7 @@ hr {
     border-radius: 5px;
   }
 
-@media (max-width:1026px) {
+@media (max-width:1200px) {
     .team-members {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -309,9 +310,12 @@ hr {
     .team-members .member {
         padding: 0.7rem 0.7rem;
     }
+    hr{
+        border: 5px solid #ec9b59;
+    }
 }
 
-@media (max-width:800px) {
+@media (max-width:900px) {
     .team-members {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
