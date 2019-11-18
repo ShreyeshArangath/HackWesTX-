@@ -27,7 +27,7 @@ Next, it's going to ask you to name the project. You can name it whatever you'd 
 After that, you're going to want to **Log in with a new account**. Log in with your google account. 
 
 After that is done, it'll ask you to pick a cloud project. Since you don't have one, you're
-going to select **Create a new project**. For the project ID, go ahead and name it the following: **dsc-your-university-name**.
+going to select **Create a new project**. Name the project: **hackwestx**
 
 ## Testing website locally
 
